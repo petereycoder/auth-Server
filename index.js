@@ -2,7 +2,6 @@ const express = require('express');
 
 
 
-
 //Crear el servidor/aplicación express
 const app = express();
 

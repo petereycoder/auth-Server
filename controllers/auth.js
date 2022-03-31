@@ -9,7 +9,7 @@ const crearUsuario = (req, res = response) => {
 
 }
 
-const loginUsuario = (req, res) => {
+const loginUsuario = (req, res = response) => {
 
     return res.json({
         ok: true,
@@ -18,7 +18,7 @@ const loginUsuario = (req, res) => {
 
 }
 
-const revalidarToken = (req, res) => {
+const revalidarToken = (req, res = response) => {
 
     return res.json({
         ok: true,
